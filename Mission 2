@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <<<<<<< HEAD (Current Change)
+    <input type="text" name="Search-product3" />
+=======
+    <input type="text" name="Search-product4" />
+>>>>>>> nama_branch_bobby (Incoming Change)
+
+1.[Mulai: git merge / git pull dijalankan] > 2.{Terjadi Git Conflict?}
+2 git conflict > 3.[Jalankan 'git status' untuk cek file]
+3.[Buka file 'index.html' di Text Editor] > 4.[Analisis marker <<<<<<<, =======, >>>>>>>]
+4.[Hapus marker Git secara manual] > 5.[Pilih & pertahankan 'search-product-3', hapus sisanya]
+5.[Simpan (Save) file]  > 6.[Jalankan 'git add index.html']
+6.[Jalankan 'git commit' untuk menyelesaikan merge] 
+7.((Konflik Selesai))
+</body>
+</html>
